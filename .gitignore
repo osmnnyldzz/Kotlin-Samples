@@ -6,3 +6,6 @@ Recycleview/*
 !Recycleview/app/
 ToggleButton/*
 !ToggleButton/app/
+Retrofit/*
+!Retrofit/app/
+.gitignore
