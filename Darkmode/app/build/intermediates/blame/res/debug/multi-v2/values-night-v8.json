@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\OTTO\\Desktop\\ottocode\\DarkMode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OTTO\\.gradle\\caches\\transforms-2\\files-2.1\\65827887865ed6f18462a429dc4197a7\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "398,468,552,636,732,834,936,1030",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "463,547,631,727,829,931,1025,1114"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OTTO\\Desktop\\ottocode\\DarkMode\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,80",
+                        "endColumns": "61,42",
+                        "endOffsets": "74,118"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "293,355",
+                        "endColumns": "61,42",
+                        "endOffsets": "350,393"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OTTO\\Desktop\\ottocode\\DarkMode\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "4,6,2,3,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "157,206,57,105,257",
+                        "endColumns": "45,49,46,50,43",
+                        "endOffsets": "198,251,99,151,296"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,151,198,249",
+                        "endColumns": "45,49,46,50,43",
+                        "endOffsets": "96,146,193,244,288"
+                    }
+                }
+            ]
+        }
+    ]
+}
