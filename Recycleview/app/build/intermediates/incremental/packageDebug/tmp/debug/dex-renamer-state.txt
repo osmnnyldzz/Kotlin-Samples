@@ -1,0 +1,4 @@
+#Thu Feb 20 21:45:41 EET 2020
+base.0=C\:\\Users\\OTTO\\Desktop\\Github\\Kotlin-Samples\\Recycleview\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
