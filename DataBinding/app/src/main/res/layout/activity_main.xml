@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.ottocode.databinding.User" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_green_gradient">
+
+        <ImageView
+            android:id="@+id/image_credit_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_credicard"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="41dp" />
+
+        <TextView
+            android:id="@+id/image_credit_card_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="@{user.cardNumber}"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/image_credit_card"
+            app:layout_constraintHorizontal_bias="0.232"
+            app:layout_constraintStart_toStartOf="@+id/image_credit_card"
+            app:layout_constraintTop_toTopOf="@+id/image_credit_card"
+            tools:text="XXXX-XXXX-XXXX-XXXX" />
+
+        <TextView
+            android:id="@+id/image_credit_card_number_CVV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.cardCVV}"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/image_credit_card_number"
+            app:layout_constraintTop_toBottomOf="@+id/image_credit_card_number"
+            tools:text="XXX" />
+
+        <TextView
+            android:id="@+id/image_credit_card_number_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:text="@{user.cardDate}"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/image_credit_card_number"
+            app:layout_constraintTop_toBottomOf="@+id/image_credit_card_number"
+            tools:text="XX/XX" />
+
+        <TextView
+            android:id="@+id/image_credit_card_number_fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@{user.fullName}"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/image_credit_card_number"
+            app:layout_constraintTop_toBottomOf="@+id/image_credit_card_number"
+            tools:text="Full Name" />
+
+        <Button
+            android:id="@+id/fetchData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_round_text"
+            android:text="fetch credıt card ınformation"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:layout_constraintEnd_toEndOf="@+id/image_credit_card"
+            app:layout_constraintStart_toStartOf="@+id/image_credit_card"
+            app:layout_constraintTop_toBottomOf="@+id/image_credit_card" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
